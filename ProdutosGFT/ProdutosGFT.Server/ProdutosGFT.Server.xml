@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProdutosGFT.Server</name>
+    </assembly>
+    <members>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Login(ProdutosGFT.Server.v1.DTOs.ClienteDTOs.LoginDTO)">
+            <summary>
+            Login.
+            </summary>
+            <param name="dto">Email e senha do cliente.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Get(System.Int64)">
+            <summary>
+            Buscar por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.GetAll(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Listar todos os clientes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.GetAllByNome(System.String,ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Busca clientes por nome.
+            </summary>
+            <param name="nome"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.GetAllAscToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os clientes em ordém alfabética crescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.GetAllDescToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os clientes em ordém alfabética decrescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Post(ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO)">
+            <summary>
+            Inserir cliente.
+            </summary>
+            <param name="dto">ClienteViewDTO para inserir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Put(ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteUpdateDTO)">
+            <summary>
+            Atualizar cliente.
+            </summary>
+            <param name="dto">ClienteViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Patch(ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteUpdateDTO)">
+            <summary>
+            Atualizar cliente parcialmente.
+            </summary>
+            <param name="dto">ClienteViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Delete(System.Int64)">
+            <summary>
+            Excluir cliente por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Desative(System.Int64)">
+            <summary>
+             Desativar cliente por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ClientesController.Active(System.Int64)">
+            <summary>
+             Ativar cliente por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Get(System.Int64)">
+            <summary>
+            Buscar por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.GetAll(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Listar todos os fornecedores.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.GetAllByNome(System.String,ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Busca fornecedores por nome.
+            </summary>
+            <param name="nome"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.GetAllAscToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os fornecedores em ordém alfabética crescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.GetAllDescToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os fornecedores em ordém alfabética decrescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Post(ProdutosGFT.Server.v1.DTOs.FornecedorDTOs.FornecedorCreateDTO)">
+            <summary>
+            Inserir fornecedor.
+            </summary>
+            <param name="dto">FornecedorViewDTO para inserir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Put(ProdutosGFT.Server.v1.DTOs.FornecedorDTOs.FornecedorUpdateDTO)">
+            <summary>
+            Atualizar fornecedor.
+            </summary>
+            <param name="dto">FornecedorViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Patch(ProdutosGFT.Server.v1.DTOs.FornecedorDTOs.FornecedorUpdateDTO)">
+            <summary>
+            Atualizar fornecedor parcialmente.
+            </summary>
+            <param name="dto">FornecedorViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Delete(System.Int64)">
+            <summary>
+            Excluir fornecedor por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Desative(System.Int64)">
+            <summary>
+             Desativar fornecedor por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.FornecedoresController.Active(System.Int64)">
+            <summary>
+             Ativar fornecedor por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Get(System.Int64)">
+            <summary>
+            Buscar por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.GetAll(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Listar todos os produtos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.GetAllByNome(System.String,ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Busca produtos por nome.
+            </summary>
+            <param name="nome"></param>
+            <param name="pagination"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.GetAllAscToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os produtos em ordém alfabética crescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.GetAllDescToName(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Lista os produtos em ordém alfabética decrescente, por nome.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Post(ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO)">
+            <summary>
+            Inserir produto.
+            </summary>
+            <param name="dto">ProdutoViewDTO para inserir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Put(ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoUpdateDTO)">
+            <summary>
+            Atualizar produto.
+            </summary>
+            <param name="dto">ProdutoViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Patch(ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoUpdateDTO)">
+            <summary>
+            Atualizar produto parcialmente.
+            </summary>
+            <param name="dto">ProdutoViewDTO para atualizar.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Delete(System.Int64)">
+            <summary>
+            Excluir produto por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Desative(System.Int64)">
+            <summary>
+             Desativar produto por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.ProdutosController.Active(System.Int64)">
+            <summary>
+             Ativar produto por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.VendasController.Get(System.Int64)">
+            <summary>
+            Buscar por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.VendasController.GetAll(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Listar todas as vendas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.VendasController.Post(ProdutosGFT.Server.v1.DTOs.VendaDTOs.VendaCreateDTO)">
+            <summary>
+            Inserir venda.
+            </summary>
+            <param name="dto">Venda para inserir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v1.Controllers.VendasController.Delete(System.Int64)">
+            <summary>
+            Excluir venda por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.BadRequestDTO.StatusCode">
+            <example>400</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.BadRequestDTO.IsValid">
+            <example>false</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ErrorFieldDTO.Field">
+            <example>Campo</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ErrorFieldDTO.Error">
+            <example>'Campo' é obrigatório</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO.Nome">
+            <example>Claudio Luis</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO.Email">
+            <example>claudio@gmail.com</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO.Senha">
+            <example>claudio12345</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO.Documento">
+            <example>999.999.999-99</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.ClienteCreateDTO.Role">
+            <example>USER</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.LoginDTO.Email">
+            <example>email@gmail.com</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.LoginDTO.Senha">
+            <example>12345</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.TokenDTO.Nome">
+            <example>Claudio Luis</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.TokenDTO.Email">
+            <example>claudio@gmail.com</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ClienteDTOs.TokenDTO.Role">
+            <example>USER</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.FornecedorDTOs.FornecedorCreateDTO.Nome">
+            <example>Lojinha do seu Zé</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.FornecedorDTOs.FornecedorCreateDTO.Cnpj">
+            <example>99.999.999/9999-99</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.InternalErrorDTO.StatusCode">
+            <example>500</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.InternalErrorDTO.IsValid">
+            <example>false</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.InternalErrorDTO.Message">
+            <example>Ocorreu um erro inesperado! ...</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.NotFoundDTO.StatusCode">
+            <example>404</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.NotFoundDTO.IsValid">
+            <example>false</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.NotFoundDTO.Message">
+            <example>Registro não encontrado.</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Nome">
+            <example>Geladeira</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Valor">
+            <example>1000</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Promocao">
+            <example>true</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.ValorPromo">
+            <example>500</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Categoria">
+            <example>Eletrodomésticos</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Imagem">
+            <example>geladeira.png</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.ProdutoDTOs.ProdutoCreateDTO.Quantidade">
+            <example>10</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.SuccessDTO`1.StatusCode">
+            <example>200</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.DTOs.SuccessDTO`1.IsValid">
+            <example>true</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.Services.Hateoas.Link.href">
+            <example>https://localhost:xxxx/api/Entidade/1</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.Services.Hateoas.Link.rel">
+            <example>SELF</example>
+        </member>
+        <member name="P:ProdutosGFT.Server.v1.Services.Hateoas.Link.method">
+            <example>GET</example>
+        </member>
+        <member name="M:ProdutosGFT.Server.v2.Controllers.VendasController.Get(System.Int64)">
+            <summary>
+            Buscar por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v2.Controllers.VendasController.GetAll(ProdutosGFT.Domain.Util.Pagination.PaginationParameters)">
+            <summary>
+            Listar todas as vendas.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v2.Controllers.VendasController.Post(ProdutosGFT.Server.v2.DTOs.VendaDTOs.VendaCreateDTO)">
+            <summary>
+            Inserir venda.
+            </summary>
+            <param name="dto">Venda para inserir.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProdutosGFT.Server.v2.Controllers.VendasController.Delete(System.Int64)">
+            <summary>
+            Excluir venda por Id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

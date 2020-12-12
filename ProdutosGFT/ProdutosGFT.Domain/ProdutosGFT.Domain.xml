@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProdutosGFT.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:ProdutosGFT.Domain.Entities.Cliente.Nome">
+            <example>Claudio Luis</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Cliente.Email">
+            <example>claudio@gmail.com</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Cliente.Senha">
+            <example>claudio12345</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Cliente.Documento">
+            <summary>
+            CPF do cliente
+            </summary>
+            <example>999.999.999-99</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Cliente.Role">
+            <example>USER</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Fornecedor.Nome">
+            <example>Lojinha do seu Zé</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Fornecedor.Cnpj">
+            <example>99.999.999/9999-99</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Nome">
+            <example>Geladeira</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.CodigoProduto">
+            <example>gelad-2020-12-20</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Valor">
+            <example>1000</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Promocao">
+            <example>true</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.ValorPromo">
+            <example>500</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Categoria">
+            <example>Eletrodomésticos</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Imagem">
+            <example>geladeira.png</example>
+        </member>
+        <member name="P:ProdutosGFT.Domain.Entities.Produto.Quantidade">
+            <example>10</example>
+        </member>
+        <member name="T:ProdutosGFT.Domain.Util.Helpers.CNPJValidator">
+            <summary>
+            Realiza a validação do CNPJ
+            </summary>
+        </member>
+        <member name="T:ProdutosGFT.Domain.Util.Helpers.CPFValidator">
+            <summary>
+            Realiza a validação do CPF
+            </summary>
+        </member>
+    </members>
+</doc>
